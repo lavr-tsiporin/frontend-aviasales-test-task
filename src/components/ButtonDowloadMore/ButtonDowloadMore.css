@@ -1,0 +1,12 @@
+.btn {
+  width: 100%;
+  border-radius: var(--btn-radius);
+  padding: 15px 20px;
+  letter-spacing: 0.5px;
+}
+
+.btn-load-more {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: #fff;
+}
