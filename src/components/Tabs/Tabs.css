@@ -1,0 +1,30 @@
+.tabs {
+  border: 1px solid #dfe5ec;
+  border-radius: var(--btn-radius);
+}
+
+.tab {
+  padding: 15px;
+  cursor: pointer;
+  min-width: 167px;
+  text-align: center;
+}
+
+.tab:first-child {
+  border-top-left-radius: var(--btn-radius);
+  border-bottom-left-radius: var(--btn-radius);
+}
+
+.tab:last-child {
+  border-top-right-radius: var(--btn-radius);
+  border-bottom-right-radius: var(--btn-radius);
+}
+
+.tab:not(:last-child) {
+  border-right: 1px solid #dfe5ec;
+}
+
+.tab-active {
+  background-color: var(--main-color);
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+.filter-container {
+  background-color: #fff;
+  border-radius: var(--btn-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container:last-child {
+  padding-bottom: 10px;
+}
+
+.filter-title {
+  margin: 20px 20px 15px 20px;
+}

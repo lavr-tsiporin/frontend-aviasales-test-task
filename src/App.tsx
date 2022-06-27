@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import { Header } from "./components/Header/Header";
+import { Filter } from "./components/Filter/Filter";
+import { Tabs } from "./components/Tabs/Tabs";
+import { Tickets } from "./components/Tickets/Tickets";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container flex justify-content-center flex-column">
+      <Header />
+      <section className="flex" style={{ justifyContent: "space-around" }}>
+        <div>
+          <Filter />
+        </div>
+        <div>
+          <Tabs />
+          <Tickets />
+        </div>
+      </section>
     </div>
   );
 }
