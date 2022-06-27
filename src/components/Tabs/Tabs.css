@@ -1,6 +1,7 @@
 .tabs {
   border: 1px solid #dfe5ec;
   border-radius: var(--btn-radius);
+  margin-bottom: 20px;
 }
 
 .tab {
