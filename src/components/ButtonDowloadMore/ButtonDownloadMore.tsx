@@ -1,9 +1,9 @@
 import React from "react";
 import "./ButtonDowloadMore.css";
 
-export const ButtonDownloadMore = () => {
+export const ButtonDownloadMore = (props: any) => {
   return (
-    <button className="btn btn-load-more text-upper">
+    <button className="btn btn-load-more text-upper" {...props}>
       Показать еще 5 билетов!
     </button>
   );
