@@ -18,6 +18,17 @@
   background-color: #fff;
 }
 
+.logo-img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.logo-name {
+  font-size: 18px;
+  margin: 0 5px;
+}
+
 .description-card {
   padding: 0 20px 10px 20px;
 }
